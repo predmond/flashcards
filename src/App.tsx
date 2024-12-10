@@ -39,7 +39,7 @@ function App() {
           }
         />
         <CardContent sx={{ marginY: 5 }}>
-          <Typography fontSize={{ xs: 15, sm: 20, md: 40, lg: 40 }}>{words[index]}</Typography>
+          <Typography fontSize={{ xs: 20, sm: 20, md: 40, lg: 40 }}>{words[index]}</Typography>
         </CardContent>
         <CardActions>
           <Stack direction={'row'} sx={{ justifyContent: 'space-evenly', width: '100%' }} spacing={2}>
